@@ -3,13 +3,104 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  background-color: aqua;
+}
+
+header{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+#contact{
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+img{
+  width: 150px;
+}
+
+
+#title{
+  background-image: url("https://storage.lebonguide.com/crop-615x399/42/63/971BFD13-2C8F-45FC-B910-3BDE459555D6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  margin: 0;
+  padding: 20px;
+
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: azure;
 }
 
 .divBtn{
-  width: 60%;
+  margin-top: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
 
-  margin-bottom: 20px;
+button{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 4px solid black;
+  cursor: pointer;
+
+}
+
+/* button::before{
+  content: "";
+  position: absolute ;
+  padding: 90px;
+  border:  4px solid black;
+  border-radius: 50%;
+  
+
+} */
+
+i{
+  font-size: 100px;
+}
+
+
+hr{
+  width: 80%;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#select{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+#result{
+  align-self: center;
+  font-size: 100px;
 }
 
